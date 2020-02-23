@@ -1,6 +1,3 @@
-html {
-  font-size: 10px;
-}
 
 html {
   font-size: 10px;
@@ -36,12 +33,15 @@ body {
 }
 header{
     background-color: #2d303a;
-    
+    border-bottom:5px solid #323746;
 }
-
+.header__logo span {
+  color: #f06c64;
+}
 .header__inner{
     
-    margin-bottom:40px;
+    padding-bottom:40px;
+  
 }
 .header__logo {
     font-size: 2.5rem;
@@ -58,9 +58,7 @@ header{
 
     float:left
   }
-  .header__logo span {
-    color: #f06c64;
-  }
+  
   nav{
       float:right;
       margin-top:45px;
