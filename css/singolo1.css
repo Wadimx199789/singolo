@@ -95,11 +95,11 @@ header{
     align-items: center;
   }
   
-  .icon-right-page {
+  .icon-left-page {
     transition: transform 0.3s ease, opacity 0.2s linear;
   }
   
-  .icon-left-page {
+  .icon-right-page {
     transform: rotate(180deg);
   
     transition: transform 0.3s ease, opacity 0.2s linear;
@@ -112,11 +112,11 @@ header{
     cursor: pointer;
   }
   
-  .icon-right-page:hover {
+  .icon-left-page:hover {
     transform: scale(1.5);
   }
   
-  .icon-left-page:hover {
+  .icon-right-page:hover {
     transform: scale(1.5) rotate(180deg);
   }
   
