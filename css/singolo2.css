@@ -128,13 +128,22 @@ h3 {
   .portfolio__picture:nth-child(n+9) {
     margin-bottom: 0;
   }
+ 
+
   .layout {
     display: flex;
   
     margin-top: 45px;
   }
   
-  .employee {
-    width: 300px;
+  .about__us{
+    padding-top: 59px;
+    padding-bottom: 67px;
+  
+    background-color: var(--light-background);
+    border-bottom: 6px solid #ffffff;
   }
+  .about-us h2 {
+  letter-spacing: -0.006em;
+}
   
