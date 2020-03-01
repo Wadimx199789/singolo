@@ -128,4 +128,13 @@ h3 {
   .portfolio__picture:nth-child(n+9) {
     margin-bottom: 0;
   }
+  .layout {
+    display: flex;
+  
+    margin-top: 45px;
+  }
+  
+  .employee {
+    width: 300px;
+  }
   
