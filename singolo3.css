@@ -265,3 +265,46 @@ form button:hover {
 
   background: transparent url("assets/icon-email.svg") no-repeat left 7px;
 }
+footer {
+    padding-top: 22px;
+    padding-bottom: 19px;
+  
+    background-color: var(--dark-background);
+  }
+  
+  footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .copyright {
+    margin-top: -4px;
+  
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: -0.004em;
+  
+    color: var(--text);
+  }
+  
+  footer .social-icons {
+    margin: 0;
+  }
+  
+  
+  
+  .visually-hidden {
+    position: absolute;
+  
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+  
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    border: 0;
+  
+    overflow: hidden;
+  }
