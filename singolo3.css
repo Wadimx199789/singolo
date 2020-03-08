@@ -73,4 +73,48 @@ body {
     opacity: 0.7;
     cursor: default;
   }
+  .social-icons {
+    margin-top: 24px;
+    padding-left: 1px;
+  }
   
+  .social-icons .icon {
+    display: inline-block;
+  
+    width: 30px;
+    height: 30px;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid var(--text);
+    border-radius: 50%;
+  }
+  
+  .social-icons .icon:not(:first-child) {
+    margin-left: 4px;
+  }
+  
+  .social-icons .icon:hover,
+  .contact-form__info .phone:hover,
+  .contact-form__info .email:hover {
+    opacity: 0.6;
+  }
+  
+  .icon.icon_facebook {
+    background-image: url("assets/icon_facebook.svg");
+  }
+  
+  .icon.icon_google-plus {
+    background-image: url("assets/icon_google-plus.svg");
+    background-position-x: 7px;
+  }
+  
+  .icon.icon_twitter {
+    background-image: url("assets/icon_twitter.svg");
+    background-position-x: 7px;
+  }
+  
+  .icon.icon_linkedin {
+    background-image: url("assets/icon_linkedin.svg");
+    background-position-y: 7px;
+  }
