@@ -1,1 +1,1 @@
-https://github.com/Wadimx199789/singolo/blob/master/index
+ https://Wadimx199789.github.io/singolo/index
