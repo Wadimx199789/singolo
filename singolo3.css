@@ -1,9 +1,7 @@
 body {
-
     --dark-background: #2d303a;
     --light-background: #f2f2f2;
     --text: #666d89;
-  
     margin: 0;
     padding: 0;
   
@@ -41,3 +39,38 @@ body {
     margin: 0 auto;
     box-sizing: border-box;
   }
+  .contacts h2 {
+    letter-spacing: -0.009em;
+  }
+  
+  .contacts p {
+    margin-block-start: 18px;
+    margin-block-end: 0;
+  
+    font: 300 18px/30px "Lato", "Arial", sans-serif;
+    text-align: justify;
+    letter-spacing: -0.012em;
+  
+    color: var(--text);
+  }
+  button {
+    padding: 0;
+    font: inherit;
+    
+    cursor: pointer;
+    
+    color: inherit;
+    background-color: transparent;
+    border: none;
+  }
+  
+  button:not(:disabled):hover,
+  button:not(:disabled):focus {
+    filter: saturate(1.25);
+  }
+  
+  button:disabled {
+    opacity: 0.7;
+    cursor: default;
+  }
+  
