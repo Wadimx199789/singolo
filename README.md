@@ -1,1 +1,1 @@
- https://Wadimx199789.github.io/singolo/index
+ https://wadimx199789.github.io/singolo/
