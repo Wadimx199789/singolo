@@ -1,3 +1,4 @@
+
 const menuLinks = document.querySelectorAll("nav ul li a");
 
 document.addEventListener("scroll", changeMenuActiveLink);
